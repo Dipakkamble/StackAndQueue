@@ -23,6 +23,31 @@ namespace StackAndQueue
             head = newNode;
             Console.WriteLine("{0} pushed to the stack ", data);
         }
+        public void Peek()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            Console.WriteLine("{0} is the top of the stack list", head.data);
+        }
+        public void Pop()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            Console.WriteLine("value popped is {0}" ,head.data);
+            head = head.next;
+        }
+        public void IsEmpty()
+        {
+            while (head != null)
+            {
+                Peek();
+                Pop();
+            }
+        }
         public void Dispaly() 
         {
             if (head == null)

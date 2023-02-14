@@ -14,7 +14,10 @@ namespace StackAndQueue
             stackLinkedList.Push(70);
             stackLinkedList.Push(30);
             stackLinkedList.Push(56);
-            stackLinkedList.Dispaly();
+            stackLinkedList.Peek();
+            stackLinkedList.Pop();
+            stackLinkedList.IsEmpty();
+            stackLinkedList.Dispaly();           
             Console.ReadLine();
         }
     }
