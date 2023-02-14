@@ -48,7 +48,7 @@ namespace StackAndQueue
                 Pop();
             }
         }
-        public void Dispaly() 
+        public void Display() 
         {
             if (head == null)
             {
