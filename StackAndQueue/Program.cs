@@ -10,7 +10,11 @@ namespace StackAndQueue
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to stack and queue");
+            CustomStackLinkedList stackLinkedList = new CustomStackLinkedList();
+            stackLinkedList.Push(70);
+            stackLinkedList.Push(30);
+            stackLinkedList.Push(56);
+            stackLinkedList.Dispaly();
             Console.ReadLine();
         }
     }
