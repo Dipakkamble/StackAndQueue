@@ -29,10 +29,10 @@ namespace StackAndQueue
                     queueLinkedList.Enqueue(56);
                     queueLinkedList.Enqueue(30);
                     queueLinkedList.Enqueue(70);
-                    /*Console.WriteLine("After performing Dequeue operation");
+                    Console.WriteLine("After performing Dequeue operation");
                     queueLinkedList.Dequeue();
-                    queueLinkedList.Dequeue();
-                    queueLinkedList.Dequeue();*/
+                    //queueLinkedList.Dequeue();
+                    //queueLinkedList.Dequeue();
                     queueLinkedList.Display();
                     break;
            

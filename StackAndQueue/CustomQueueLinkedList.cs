@@ -29,12 +29,15 @@ namespace StackAndQueue
         }
         public void Dequeue()
         {
-            if (head == null)
+            while (head != null)
             {
-                Console.WriteLine("Queue is empty");
+                if (head == null)
+                {
+                    Console.WriteLine("Queue is empty");
+                }
+                Console.WriteLine("{0} removed from queue ", head.data);
+                head = head.next;
             }
-            Console.WriteLine("{0} removed from queue ", head.data);
-            head = head.next;
         }
         public void Display()
         {
